@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "food-delivery-app",
+    "slug": "food-delivery-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "backgroundColor": "#2D9CDB"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package":"com.test.food",
+      "adaptiveIcon": {
+        "backgroundColor": "#2D9CDB"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAdqdzd1f8KlAtrQg1_JThChwX02hKbYb0"
+        }
+      }
+    }
+    
+  }
+}
